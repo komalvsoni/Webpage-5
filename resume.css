@@ -1,0 +1,31 @@
+* { padding: 0; margin: 0; }
+
+.cf	{ clear: both; }
+
+body { font-family: 'Lato', sans-serif; }
+
+.italic-text { font-style: italic; }
+
+.container { max-width: 600px;  margin: 70px auto; border: 2px solid black; background: #eee;  padding: 10px; }
+
+.container .block1 { border-bottom: 2px solid #FF8C00; margin: 10px; }
+.container .block1 .block1-left { float: left; margin: 5px; }
+.container .block1 .block1-left img { height: 150px; width: 150px; border: 2px; border-radius: 100px; }
+.container .block1 .block1-right { float: right; padding: 10px;  }
+
+.container .block2 { border-bottom: 1px solid black; margin: 10px; padding: 10px;  }
+.container .block2 .block2-left { float: left; color: #FF8C00 ; font-style: italic; font-size: 20px; }
+.container .block2 .block2-right { float: right; width: 420px; text-align: justify;}
+
+.container .block3 { border-bottom: 1px solid black; margin: 10px; padding: 10px; }
+.container .block3 .block3-left { float: left; color: #FF8C00; font-style: italic; font-size: 20px; }
+.container .block3 .block3-right { float: right; width: 420px; text-align: justify; } 
+
+.container .block4 { border-bottom: 1px solid black; margin: 10px; padding: 10px; }
+.container .block4 .block4-left { float: left; color: #FF8C00; font-style: italic; font-size: 20px;}
+.container .block4 .block4-right { float: right; width: 420px; text-align: justify; }
+.container .block4 .block4-right ul { width: 135px; float: left; list-style-type: none; }
+
+.container .block5 { margin: 10px; padding: 10px; }
+.container .block5 .block5-left { float: left; color: #FF8C00 ; font-style: italic; font-size: 20px;}
+.container .block5 .block5-right { float: right; width: 420px; text-align: justify;}
